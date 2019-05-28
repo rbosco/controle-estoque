@@ -67,6 +67,12 @@ td{
     padding-left:10px;
 }
 
+.form-search{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
 tbody tr:nth-child(2n+0){
     background: #f7f7f7;
 }
@@ -93,6 +99,7 @@ tbody tr:nth-child(2n+0){
     font-weight: bold;
     margin-right: 15px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .btn-info{
@@ -168,4 +175,10 @@ tbody tr:nth-child(2n+0){
     background: #fff;
     transition: 0.2s;
     color: #333;
+}
+
+@media (max-width: 29em) {
+    .flex .box50{
+        flex-basis: 100% !important;
+    }
 }

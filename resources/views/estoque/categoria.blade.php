@@ -17,6 +17,11 @@
                </div>
             </form>
          </div>
+         <div class="box50 form-search">
+               <form name="form-search">
+                  <input type="text" class="radius5" name="search" placeholder="Pesquisa">
+               </form>
+            </div>
       </div>
       <div class="product-list">
          <table class="table" width="100%">

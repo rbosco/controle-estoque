@@ -121,7 +121,7 @@ $(function () {
 
         // Search Text
         var search = $(this).val();
-        console.log(search); return;
+        
         // Hide all table tbody rows
         $('table tbody tr').hide();
 
